@@ -2,3 +2,4 @@
 ## Projecte intermodular
 
 Desplegaments:
+- Desplegament inicial manual
