@@ -1,0 +1,41 @@
+name: Desplegament Vercel
+
+env:
+
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+on:
+
+  push:
+
+    branches:
+
+      - main
+
+jobs:
+
+  Desplegar:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v6
+
+      - name: Instal·lar Vercel CLI
+
+        run: npm install --global vercel@latest
+
+      - name: Descarrega Informació de l’entorn de Vercel
+
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Fer el build
+
+        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Desplegar a Vercel
+
+        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
