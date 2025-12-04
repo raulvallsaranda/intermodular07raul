@@ -3,3 +3,4 @@
 
 Desplegaments:
 - Desplegament inicial manual
+- Desplegament amb VERCEL_TOKEN
