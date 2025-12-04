@@ -31,6 +31,10 @@ jobs:
       - name: Modifica fitxer md
         run: |
           echo -e "- Desplegament Vercel Github Actions:  "`date` >> README.md
+      - name: Modifica fitxer index.html
+        run: |
+          data=`date`
+          sed -i "s/<\/ul>/    <li>${date}<\/li>\n\t<\/ul>/" index.html
           
       - name: commit i push
         run: |
