@@ -1,0 +1,104 @@
+/* estils intermodular 02 web */
+
+html{
+    background-color:#f3fac9;
+    font-family:arial;
+    box-sizing: border-box;
+}
+
+#cap{
+    width:80%;
+    margin: 10px auto;
+    padding:20px;
+    border:solid 1px black;
+    text-align:center;
+    background-color:rgb(171, 221, 169);
+}
+
+#cap h1{
+    width:60%;
+    margin: 10px auto;
+    padding:20px;
+    border:solid 1px blue;
+    color:blue;
+    font-weight: bold;
+    text-align:center;
+    background-color:white;
+}
+#principal{
+    width:80%;
+    margin: 10px auto;
+    padding:20px;
+    border:solid 1px black;
+    text-align:center;
+    background-color:rgb(171, 221, 169);
+}
+
+#principal p.paragraf{
+    width:60%;
+    margin: 10px auto;
+    padding:20px;
+    border:solid 1px blue;
+    color:blue;
+    font-weight: bold;
+    text-align:center;
+    background-color:white;
+}
+
+#principal h2{
+    width:60%;
+    margin: 10px auto;
+    padding:20px;
+    border:solid 5px red;
+    border-radius: 20px;;
+    color:red;
+    font-weight: bold;
+    text-align:center;
+    background-color:white;
+}
+
+#peu{
+    width:80%;
+    margin: 10px auto;
+    padding:20px;
+    border:solid 1px black;
+    text-align:center;
+    background-color:rgb(171, 221, 169);
+}
+
+#peu p{
+    width:60%;
+    margin: 10px auto;
+    padding:20px;
+    border:solid 1px blue;
+    color:blue;
+    font-weight: bold;
+    text-align:center;
+    background-color:white;
+}
+
+.imatge{
+    width:600px;
+    margin:20px;
+}
+
+div.link{
+    width:20%;
+    margin:10px auto;
+    padding:10px;
+    border:solid 5px red;
+    background-color:rgb(240, 240, 201);
+    border-radius:20px;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items{
+    padding:10px;
+    width:70%;
+    border:solid 2px green;
+    border-radius: 10px;
+    margin:5px;
+}
