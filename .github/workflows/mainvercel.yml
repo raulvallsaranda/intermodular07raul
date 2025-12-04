@@ -33,8 +33,8 @@ jobs:
           echo -e "- Desplegament Vercel Github Actions:  "`date` >> README.md
       - name: Modifica fitxer index.html
         run: |
-          data=`date`
-          sed -i "s/<\/ul>/    <li>${date}<\/li>\n\t<\/ul>/" index.html
+          ARA=$(date)
+          sed -i "s/<\/ul>/    <li>${ARA}<\/li>\n\t<\/ul>/" index.html
           
       - name: commit i push
         run: |
