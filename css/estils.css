@@ -1,4 +1,8 @@
 /* estils intermodular 02 web */
+* {
+    padding: 0;
+    margin: 0;
+}
 
 html{
     background-color:#f3fac9;
@@ -10,9 +14,11 @@ html{
     width:80%;
     margin: 10px auto;
     padding:20px;
-    border:solid 1px black;
+    border:solid 4px black;
     text-align:center;
     background-color:rgb(171, 221, 169);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 #cap h1{
@@ -29,7 +35,7 @@ html{
     width:80%;
     margin: 10px auto;
     padding:20px;
-    border:solid 1px black;
+    border:solid 4px black;
     text-align:center;
     background-color:rgb(171, 221, 169);
 }
@@ -87,9 +93,11 @@ html{
     width:80%;
     margin: 10px auto;
     padding:20px;
-    border:solid 1px black;
+    border:solid 4px black;
     text-align:center;
     background-color:rgb(171, 221, 169);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 #peu p{
