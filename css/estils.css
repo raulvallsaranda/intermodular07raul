@@ -4,135 +4,164 @@
     margin: 0;
 }
 
-html{
-    background-color:#f3fac9;
-    font-family:arial;
+html {
+    background-color: #f3fac9;
+    font-family: arial;
     box-sizing: border-box;
+    background: repeating-linear-gradient(to bottom, black, black 5%, red 5%, red 10%, green 10%, green 15%, yellow 15%, yellow 20%);
+
 }
 
-#cap{
-    width:80%;
+#cap {
+    width: 80%;
     margin: 10px auto;
-    padding:20px;
-    border:solid 4px black;
-    text-align:center;
-    background-color:rgb(171, 221, 169);
+    padding: 20px;
+    border: solid 4px black;
+    text-align: center;
+    background-color: rgb(171, 221, 169);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    background-color: rgb(171, 221, 169);
+    background-image: url("../img/fons.jpg");
+    background-repeat: repeat;
+    background-size: 30%;
+    background-position: center;
 }
 
-#cap h1{
-    width:60%;
+#cap h1 {
+    width: 60%;
     margin: 10px auto;
-    padding:20px;
-    border:solid 1px blue;
-    color:blue;
+    padding: 20px;
+    border: solid 1px blue;
+    color: blue;
     font-weight: bold;
-    text-align:center;
-    background-color:white;
-}
-#principal{
-    width:80%;
-    margin: 10px auto;
-    padding:20px;
-    border:solid 4px black;
-    text-align:center;
-    background-color:rgb(171, 221, 169);
+    text-align: center;
+    background-color: white;
 }
 
-#principal p.paragraf{
-    width:60%;
+#principal {
+    width: 80%;
     margin: 10px auto;
-    padding:20px;
-    border:solid 1px blue;
-    color:blue;
+    padding: 20px;
+    border: solid 4px black;
+    text-align: center;
+    background-color: rgb(171, 221, 169);
+    background-image: url("../img/fons.jpg");
+    background-repeat: repeat;
+    background-size: 30%;
+    background-position: center;
+}
+
+#principal p.paragraf {
+    width: 60%;
+    margin: 10px auto;
+    padding: 20px;
+    border: solid 1px blue;
+    color: blue;
     font-weight: bold;
-    text-align:center;
-    background-color:white;
+    text-align: center;
+    background-color: white;
+    background: linear-gradient(to bottom, black, black 25%, red 25%, red 50%, green 50%, green 75%, yellow 75%, yellow);
 }
 
-#principal #desplegaments{
+#principal #desplegaments {
     list-style-type: none;
     list-style-position: inside;
+    padding: 10px;
     width: 60%;
     min-height: 100px;
-    margin:10px auto;
+    margin: 10px auto;
     border: solid 5px blue;
     border-radius: 10px;
-    color:blue;
-    background-color:#CCC;
-    color:white;
-    font-size:1.3em;
+    color: blue;
+    background-color: #CCC;
+    color: greenyellow;
+    font-size: 1.4em;
     font-weight: bold;
     text-shadow: black 2px 2px 2px;
+    text-align: center;
 }
-#principal #desplegaments li:first-child{
-    color:yellow;
+
+#principal #desplegaments li:first-child {
+    color: yellow;
     text-shadow: red 2px 2px 2px;
     font-size: 1.5em;
     text-decoration: underline;
+    margin-bottom:10px;
 }
-#principal #desplegaments li{
-    line-height: 30px;
 
-
+#principal #desplegaments li:not(li:first-child) {
+    line-height: 40px;
+    padding: 5px;
+    border:solid 1px black;
+    border-radius:10px;
+    background-color: white;
+    width: 60%;
+    margin:5px auto;
 }
-#principal h2{
-    width:60%;
+
+#principal h2 {
+    width: 60%;
     margin: 10px auto;
-    padding:20px;
-    border:solid 5px red;
-    border-radius: 20px;;
-    color:red;
+    padding: 20px;
+    border: solid 5px red;
+    border-radius: 20px;
+    ;
+    color: red;
     font-weight: bold;
-    text-align:center;
-    background-color:white;
+    text-align: center;
+    background-color: white;
 }
 
-#peu{
-    width:80%;
+#peu {
+    width: 80%;
     margin: 10px auto;
-    padding:20px;
-    border:solid 4px black;
-    text-align:center;
-    background-color:rgb(171, 221, 169);
+    padding: 20px;
+    border: solid 4px black;
+    text-align: center;
+    background-color: rgb(171, 221, 169);
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    background-color: rgb(171, 221, 169);
+    background-image: url("../img/fons.jpg");
+    background-repeat: repeat;
+    background-size: 30%;
+    background-position: center;
 }
 
-#peu p{
-    width:60%;
+#peu p {
+    width: 60%;
     margin: 10px auto;
-    padding:20px;
-    border:solid 1px blue;
-    color:blue;
+    padding: 20px;
+    border: solid 1px blue;
+    color: blue;
     font-weight: bold;
-    text-align:center;
-    background-color:white;
+    text-align: center;
+    background-color: white;
 }
 
-.imatge{
-    width:600px;
-    margin:20px;
+.imatge {
+    width: 600px;
+    margin: 20px;
 }
 
-div.link{
-    width:20%;
-    margin:10px auto;
-    padding:10px;
-    border:solid 5px red;
-    background-color:rgb(240, 240, 201);
-    border-radius:20px;
-    display:flex;
+div.link {
+    width: 20%;
+    margin: 10px auto;
+    padding: 10px;
+    border: solid 5px red;
+    background-color: rgb(240, 240, 201);
+    border-radius: 20px;
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.items{
-    padding:10px;
-    width:70%;
-    border:solid 2px green;
+.items {
+    padding: 10px;
+    width: 70%;
+    border: solid 2px green;
     border-radius: 10px;
-    margin:5px;
+    margin: 5px;
 }
