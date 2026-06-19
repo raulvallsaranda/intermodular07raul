@@ -5,3 +5,4 @@ Desplegaments:
 - Desplegament inicial manual
 
 - Desplegament Vercel Github Actions:  Fri Jun 19 07:33:28 UTC 2026
+- Desplegament Vercel Github Actions:  Fri Jun 19 08:11:32 UTC 2026
